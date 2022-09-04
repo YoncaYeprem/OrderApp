@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dish List By Category View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DishListByCategoryViewController" id="Y6W-OH-hqX" customClass="DishListByCategoryViewController" customModule="OrderFood" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mHV-wL-S3i">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="RTH-FX-1CX"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="C24-L7-xxS"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="mHV-wL-S3i" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="3DH-ra-I7H"/>
+                            <constraint firstItem="mHV-wL-S3i" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="5Bi-8K-IXq"/>
+                            <constraint firstAttribute="bottom" secondItem="mHV-wL-S3i" secondAttribute="bottom" id="9ss-vh-U0p"/>
+                            <constraint firstItem="mHV-wL-S3i" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cfp-My-UIR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dishesTableView" destination="mHV-wL-S3i" id="aNv-69-Tvc"/>
+                        <segue destination="032-Ue-zAX" kind="show" identifier="sg_dish_detail" id="LLe-Vd-Fod"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.579710144927539" y="116.51785714285714"/>
+        </scene>
+        <!--DishDetailViewController-->
+        <scene sceneID="G9O-l4-wk8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DishDetail" referencedIdentifier="DishDetailViewController" id="032-Ue-zAX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jNE-LE-TVs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1u-zX-NOe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="7"/>
+        </scene>
+    </scenes>
+</document>

@@ -7,15 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04056D9F28BE5105005AD028 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04056D9E28BE5105005AD028 /* NetworkService.swift */; };
+		04056DA128BE51C0005AD028 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04056DA028BE51C0005AD028 /* Route.swift */; };
+		04056DA328BE5257005AD028 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04056DA228BE5257005AD028 /* Method.swift */; };
+		040AF3D428BCB63E00F2D524 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AF3D328BCB63E00F2D524 /* CardView.swift */; };
+		040AF3D828BCE03300F2D524 /* PopularDishesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AF3D628BCE03300F2D524 /* PopularDishesCollectionViewCell.swift */; };
+		040AF3D928BCE03300F2D524 /* PopularDishesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040AF3D728BCE03300F2D524 /* PopularDishesCollectionViewCell.xib */; };
+		040AF3DB28BCE28500F2D524 /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AF3DA28BCE28500F2D524 /* DishModel.swift */; };
+		04240EF128BD0F310067A80D /* DishLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04240EEF28BD0F310067A80D /* DishLandscapeCollectionViewCell.swift */; };
+		04240EF228BD0F320067A80D /* DishLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04240EF028BD0F310067A80D /* DishLandscapeCollectionViewCell.xib */; };
+		04240EF528BD19530067A80D /* DishDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04240EF428BD19530067A80D /* DishDetail.storyboard */; };
+		04240EF728BD1CA40067A80D /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04240EF628BD1CA40067A80D /* DishDetailViewController.swift */; };
+		04240EF928BD1E3D0067A80D /* UIViewContollerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04240EF828BD1E3D0067A80D /* UIViewContollerExtension.swift */; };
+		04387F6B28BC8E5A00D8C112 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04387F6A28BC8E5A00D8C112 /* Home.storyboard */; };
+		04387F6E28BC8EB300D8C112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387F6D28BC8EB300D8C112 /* HomeViewController.swift */; };
+		04387F7428BC96A400D8C112 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387F7228BC96A400D8C112 /* CategoryCollectionViewCell.swift */; };
+		04387F7528BC96A400D8C112 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04387F7328BC96A400D8C112 /* CategoryCollectionViewCell.xib */; };
+		04387F7828BC998400D8C112 /* DishCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387F7728BC998400D8C112 /* DishCategoryModel.swift */; };
+		04387F7B28BC9B3B00D8C112 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 04387F7A28BC9B3B00D8C112 /* Kingfisher */; };
+		04387F7D28BC9B8600D8C112 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387F7C28BC9B8600D8C112 /* StringExtension.swift */; };
+		0451362D28C36CD30039E0A3 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451362C28C36CD30039E0A3 /* AppError.swift */; };
+		0451362F28C3733A0039E0A3 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451362E28C3733A0039E0A3 /* ApiResponse.swift */; };
+		0451363128C37DA00039E0A3 /* AllModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451363028C37DA00039E0A3 /* AllModels.swift */; };
+		0451363428C383050039E0A3 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 0451363328C383050039E0A3 /* ProgressHUD */; };
 		0477F56628BBAA00007F0631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F56528BBAA00007F0631 /* AppDelegate.swift */; };
 		0477F56828BBAA00007F0631 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F56728BBAA00007F0631 /* SceneDelegate.swift */; };
-		0477F56A28BBAA00007F0631 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F56928BBAA00007F0631 /* ViewController.swift */; };
 		0477F56D28BBAA00007F0631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477F56B28BBAA00007F0631 /* Main.storyboard */; };
 		0477F56F28BBAA02007F0631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0477F56E28BBAA02007F0631 /* Assets.xcassets */; };
 		0477F57228BBAA02007F0631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477F57028BBAA02007F0631 /* LaunchScreen.storyboard */; };
 		0477F57D28BBAA02007F0631 /* OrderFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F57C28BBAA02007F0631 /* OrderFoodTests.swift */; };
 		0477F58728BBAA02007F0631 /* OrderFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F58628BBAA02007F0631 /* OrderFoodUITests.swift */; };
 		0477F58928BBAA02007F0631 /* OrderFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F58828BBAA02007F0631 /* OrderFoodUITestsLaunchTests.swift */; };
+		0477F59928BBAA79007F0631 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F59828BBAA79007F0631 /* OnboardViewController.swift */; };
+		0477F59C28BBACC8007F0631 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F59B28BBACC8007F0631 /* UIViewExtension.swift */; };
+		0477F59E28BBADB2007F0631 /* OnboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F59D28BBADB2007F0631 /* OnboardModel.swift */; };
+		0477F5A028BBAF76007F0631 /* OnboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477F59F28BBAF76007F0631 /* OnboardCollectionViewCell.swift */; };
+		04A755AF28BE347E00DBE573 /* DishCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A755AD28BE347E00DBE573 /* DishCategoryTableViewCell.swift */; };
+		04A755B028BE347E00DBE573 /* DishCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A755AE28BE347E00DBE573 /* DishCategoryTableViewCell.xib */; };
+		04A755B328BE384800DBE573 /* DishListByCategory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A755B228BE384800DBE573 /* DishListByCategory.storyboard */; };
+		04A755B528BE396A00DBE573 /* DishListByCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A755B428BE396A00DBE573 /* DishListByCategoryViewController.swift */; };
+		04A755B828BE453100DBE573 /* OrdersList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A755B728BE453100DBE573 /* OrdersList.storyboard */; };
+		04A755BA28BE455A00DBE573 /* OrdersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A755B928BE455A00DBE573 /* OrdersListViewController.swift */; };
+		04A755BD28BE485E00DBE573 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A755BC28BE485E00DBE573 /* OrderModel.swift */; };
+		04B255F328C38A5C00A4C5F4 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 04B255F228C38A5C00A4C5F4 /* IQKeyboardManagerSwift */; };
+		04B255F628C38B2300A4C5F4 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 04B255F528C38B2300A4C5F4 /* ProgressHUD */; };
+		04B255F928C38B4300A4C5F4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 04B255F828C38B4300A4C5F4 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +72,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04056D9E28BE5105005AD028 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		04056DA028BE51C0005AD028 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		04056DA228BE5257005AD028 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		040AF3D328BCB63E00F2D524 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		040AF3D628BCE03300F2D524 /* PopularDishesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularDishesCollectionViewCell.swift; sourceTree = "<group>"; };
+		040AF3D728BCE03300F2D524 /* PopularDishesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularDishesCollectionViewCell.xib; sourceTree = "<group>"; };
+		040AF3DA28BCE28500F2D524 /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		04240EEF28BD0F310067A80D /* DishLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
+		04240EF028BD0F310067A80D /* DishLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		04240EF428BD19530067A80D /* DishDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DishDetail.storyboard; sourceTree = "<group>"; };
+		04240EF628BD1CA40067A80D /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
+		04240EF828BD1E3D0067A80D /* UIViewContollerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewContollerExtension.swift; sourceTree = "<group>"; };
+		04387F6A28BC8E5A00D8C112 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		04387F6D28BC8EB300D8C112 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04387F7228BC96A400D8C112 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		04387F7328BC96A400D8C112 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		04387F7728BC998400D8C112 /* DishCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategoryModel.swift; sourceTree = "<group>"; };
+		04387F7C28BC9B8600D8C112 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		0451362C28C36CD30039E0A3 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		0451362E28C3733A0039E0A3 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		0451363028C37DA00039E0A3 /* AllModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllModels.swift; sourceTree = "<group>"; };
 		0477F56228BBAA00007F0631 /* OrderFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0477F56528BBAA00007F0631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0477F56728BBAA00007F0631 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0477F56928BBAA00007F0631 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0477F56C28BBAA00007F0631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0477F56E28BBAA02007F0631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0477F57128BBAA02007F0631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +105,17 @@
 		0477F58228BBAA02007F0631 /* OrderFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0477F58628BBAA02007F0631 /* OrderFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodUITests.swift; sourceTree = "<group>"; };
 		0477F58828BBAA02007F0631 /* OrderFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0477F59828BBAA79007F0631 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		0477F59B28BBACC8007F0631 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		0477F59D28BBADB2007F0631 /* OnboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardModel.swift; sourceTree = "<group>"; };
+		0477F59F28BBAF76007F0631 /* OnboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		04A755AD28BE347E00DBE573 /* DishCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		04A755AE28BE347E00DBE573 /* DishCategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		04A755B228BE384800DBE573 /* DishListByCategory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DishListByCategory.storyboard; sourceTree = "<group>"; };
+		04A755B428BE396A00DBE573 /* DishListByCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListByCategoryViewController.swift; sourceTree = "<group>"; };
+		04A755B728BE453100DBE573 /* OrdersList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrdersList.storyboard; sourceTree = "<group>"; };
+		04A755B928BE455A00DBE573 /* OrdersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListViewController.swift; sourceTree = "<group>"; };
+		04A755BC28BE485E00DBE573 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +123,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04387F7B28BC9B3B00D8C112 /* Kingfisher in Frameworks */,
+				04B255F628C38B2300A4C5F4 /* ProgressHUD in Frameworks */,
+				0451363428C383050039E0A3 /* ProgressHUD in Frameworks */,
+				04B255F328C38A5C00A4C5F4 /* IQKeyboardManagerSwift in Frameworks */,
+				04B255F928C38B4300A4C5F4 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +148,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040AF3D228BCB5F300F2D524 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				040AF3D328BCB63E00F2D524 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		040AF3D528BCE01200F2D524 /* PopularDishesCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				040AF3D628BCE03300F2D524 /* PopularDishesCollectionViewCell.swift */,
+				040AF3D728BCE03300F2D524 /* PopularDishesCollectionViewCell.xib */,
+			);
+			path = PopularDishesCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		04240EEE28BD0EFD0067A80D /* DishLandscapeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04240EEF28BD0F310067A80D /* DishLandscapeCollectionViewCell.swift */,
+				04240EF028BD0F310067A80D /* DishLandscapeCollectionViewCell.xib */,
+			);
+			path = DishLandscapeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		04240EF328BD19390067A80D /* Dish Detail */ = {
+			isa = PBXGroup;
+			children = (
+				04240EF428BD19530067A80D /* DishDetail.storyboard */,
+			);
+			path = "Dish Detail";
+			sourceTree = "<group>";
+		};
+		04387F6928BC8E4400D8C112 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04387F6A28BC8E5A00D8C112 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04387F6C28BC8E9D00D8C112 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04387F6D28BC8EB300D8C112 /* HomeViewController.swift */,
+				04240EF628BD1CA40067A80D /* DishDetailViewController.swift */,
+				04A755B428BE396A00DBE573 /* DishListByCategoryViewController.swift */,
+				04A755B928BE455A00DBE573 /* OrdersListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04387F6F28BC965200D8C112 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04A755AB28BE342900DBE573 /* TableViewCells */,
+				040AF3D228BCB5F300F2D524 /* CardView */,
+				04387F7028BC965800D8C112 /* CollectionViewCells */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		04387F7028BC965800D8C112 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				04240EEE28BD0EFD0067A80D /* DishLandscapeCollectionViewCell */,
+				040AF3D528BCE01200F2D524 /* PopularDishesCollectionViewCell */,
+				04387F7128BC966900D8C112 /* CategoryCollectionViewCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		04387F7128BC966900D8C112 /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04387F7228BC96A400D8C112 /* CategoryCollectionViewCell.swift */,
+				04387F7328BC96A400D8C112 /* CategoryCollectionViewCell.xib */,
+			);
+			path = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		0477F55928BBAA00007F0631 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +253,14 @@
 		0477F56428BBAA00007F0631 /* OrderFood */ = {
 			isa = PBXGroup;
 			children = (
+				04A755BE28BE509C00DBE573 /* Network */,
+				04387F6F28BC965200D8C112 /* Components */,
+				04387F6C28BC8E9D00D8C112 /* Controller */,
+				0477F59A28BBACA4007F0631 /* Extensions */,
+				0477F59628BBAA3E007F0631 /* Models */,
+				0477F59528BBAA38007F0631 /* View */,
 				0477F56528BBAA00007F0631 /* AppDelegate.swift */,
 				0477F56728BBAA00007F0631 /* SceneDelegate.swift */,
-				0477F56928BBAA00007F0631 /* ViewController.swift */,
 				0477F56B28BBAA00007F0631 /* Main.storyboard */,
 				0477F56E28BBAA02007F0631 /* Assets.xcassets */,
 				0477F57028BBAA02007F0631 /* LaunchScreen.storyboard */,
@@ -127,6 +286,95 @@
 			path = OrderFoodUITests;
 			sourceTree = "<group>";
 		};
+		0477F59528BBAA38007F0631 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A755B628BE451A00DBE573 /* OrdersList */,
+				04A755B128BE381B00DBE573 /* DishListByCategory */,
+				04240EF328BD19390067A80D /* Dish Detail */,
+				04387F6928BC8E4400D8C112 /* Home */,
+				0477F59728BBAA55007F0631 /* Onboard */,
+			);
+			name = View;
+			path = "Vİew";
+			sourceTree = "<group>";
+		};
+		0477F59628BBAA3E007F0631 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0477F59D28BBADB2007F0631 /* OnboardModel.swift */,
+				04387F7728BC998400D8C112 /* DishCategoryModel.swift */,
+				040AF3DA28BCE28500F2D524 /* DishModel.swift */,
+				04A755BC28BE485E00DBE573 /* OrderModel.swift */,
+				0451363028C37DA00039E0A3 /* AllModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0477F59728BBAA55007F0631 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				0477F59828BBAA79007F0631 /* OnboardViewController.swift */,
+				0477F59F28BBAF76007F0631 /* OnboardCollectionViewCell.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		0477F59A28BBACA4007F0631 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0477F59B28BBACC8007F0631 /* UIViewExtension.swift */,
+				04387F7C28BC9B8600D8C112 /* StringExtension.swift */,
+				04240EF828BD1E3D0067A80D /* UIViewContollerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04A755AB28BE342900DBE573 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				04A755AC28BE343700DBE573 /* DishCategoryTableViewCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		04A755AC28BE343700DBE573 /* DishCategoryTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04A755AD28BE347E00DBE573 /* DishCategoryTableViewCell.swift */,
+				04A755AE28BE347E00DBE573 /* DishCategoryTableViewCell.xib */,
+			);
+			path = DishCategoryTableViewCell;
+			sourceTree = "<group>";
+		};
+		04A755B128BE381B00DBE573 /* DishListByCategory */ = {
+			isa = PBXGroup;
+			children = (
+				04A755B228BE384800DBE573 /* DishListByCategory.storyboard */,
+			);
+			path = DishListByCategory;
+			sourceTree = "<group>";
+		};
+		04A755B628BE451A00DBE573 /* OrdersList */ = {
+			isa = PBXGroup;
+			children = (
+				04A755B728BE453100DBE573 /* OrdersList.storyboard */,
+			);
+			path = OrdersList;
+			sourceTree = "<group>";
+		};
+		04A755BE28BE509C00DBE573 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				04056D9E28BE5105005AD028 /* NetworkService.swift */,
+				04056DA028BE51C0005AD028 /* Route.swift */,
+				04056DA228BE5257005AD028 /* Method.swift */,
+				0451362C28C36CD30039E0A3 /* AppError.swift */,
+				0451362E28C3733A0039E0A3 /* ApiResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +391,13 @@
 			dependencies = (
 			);
 			name = OrderFood;
+			packageProductDependencies = (
+				04387F7A28BC9B3B00D8C112 /* Kingfisher */,
+				0451363328C383050039E0A3 /* ProgressHUD */,
+				04B255F228C38A5C00A4C5F4 /* IQKeyboardManagerSwift */,
+				04B255F528C38B2300A4C5F4 /* ProgressHUD */,
+				04B255F828C38B4300A4C5F4 /* Kingfisher */,
+			);
 			productName = OrderFood;
 			productReference = 0477F56228BBAA00007F0631 /* OrderFood.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +470,14 @@
 				Base,
 			);
 			mainGroup = 0477F55928BBAA00007F0631;
+			packageReferences = (
+				04387F7928BC9B3B00D8C112 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				0451363228C383050039E0A3 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				0451363528C389D90039E0A3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				04B255F128C38A5C00A4C5F4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				04B255F428C38B2300A4C5F4 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				04B255F728C38B4300A4C5F4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 0477F56328BBAA00007F0631 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +495,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0477F57228BBAA02007F0631 /* LaunchScreen.storyboard in Resources */,
+				04A755B328BE384800DBE573 /* DishListByCategory.storyboard in Resources */,
+				04387F7528BC96A400D8C112 /* CategoryCollectionViewCell.xib in Resources */,
+				040AF3D928BCE03300F2D524 /* PopularDishesCollectionViewCell.xib in Resources */,
+				04A755B828BE453100DBE573 /* OrdersList.storyboard in Resources */,
 				0477F56F28BBAA02007F0631 /* Assets.xcassets in Resources */,
+				04A755B028BE347E00DBE573 /* DishCategoryTableViewCell.xib in Resources */,
 				0477F56D28BBAA00007F0631 /* Main.storyboard in Resources */,
+				04240EF228BD0F320067A80D /* DishLandscapeCollectionViewCell.xib in Resources */,
+				04387F6B28BC8E5A00D8C112 /* Home.storyboard in Resources */,
+				04240EF528BD19530067A80D /* DishDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +529,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0477F56A28BBAA00007F0631 /* ViewController.swift in Sources */,
+				04387F7428BC96A400D8C112 /* CategoryCollectionViewCell.swift in Sources */,
+				04240EF928BD1E3D0067A80D /* UIViewContollerExtension.swift in Sources */,
 				0477F56628BBAA00007F0631 /* AppDelegate.swift in Sources */,
+				04A755B528BE396A00DBE573 /* DishListByCategoryViewController.swift in Sources */,
+				040AF3D828BCE03300F2D524 /* PopularDishesCollectionViewCell.swift in Sources */,
+				04387F7D28BC9B8600D8C112 /* StringExtension.swift in Sources */,
+				04387F7828BC998400D8C112 /* DishCategoryModel.swift in Sources */,
+				04A755AF28BE347E00DBE573 /* DishCategoryTableViewCell.swift in Sources */,
+				04056DA328BE5257005AD028 /* Method.swift in Sources */,
+				0477F59E28BBADB2007F0631 /* OnboardModel.swift in Sources */,
+				04240EF728BD1CA40067A80D /* DishDetailViewController.swift in Sources */,
+				0477F59928BBAA79007F0631 /* OnboardViewController.swift in Sources */,
+				04A755BA28BE455A00DBE573 /* OrdersListViewController.swift in Sources */,
+				0451362F28C3733A0039E0A3 /* ApiResponse.swift in Sources */,
+				04A755BD28BE485E00DBE573 /* OrderModel.swift in Sources */,
+				04056DA128BE51C0005AD028 /* Route.swift in Sources */,
+				04056D9F28BE5105005AD028 /* NetworkService.swift in Sources */,
+				0477F59C28BBACC8007F0631 /* UIViewExtension.swift in Sources */,
+				04240EF128BD0F310067A80D /* DishLandscapeCollectionViewCell.swift in Sources */,
+				0477F5A028BBAF76007F0631 /* OnboardCollectionViewCell.swift in Sources */,
+				040AF3DB28BCE28500F2D524 /* DishModel.swift in Sources */,
+				0451362D28C36CD30039E0A3 /* AppError.swift in Sources */,
+				04387F6E28BC8EB300D8C112 /* HomeViewController.swift in Sources */,
+				0451363128C37DA00039E0A3 /* AllModels.swift in Sources */,
+				040AF3D428BCB63E00F2D524 /* CardView.swift in Sources */,
 				0477F56828BBAA00007F0631 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,6 +890,85 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04387F7928BC9B3B00D8C112 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		0451363228C383050039E0A3 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+		0451363528C389D90039E0A3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		04B255F128C38A5C00A4C5F4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		04B255F428C38B2300A4C5F4 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		04B255F728C38B4300A4C5F4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04387F7A28BC9B3B00D8C112 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04387F7928BC9B3B00D8C112 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		0451363328C383050039E0A3 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0451363228C383050039E0A3 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+		04B255F228C38A5C00A4C5F4 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04B255F128C38A5C00A4C5F4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		04B255F528C38B2300A4C5F4 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04B255F428C38B2300A4C5F4 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+		04B255F828C38B4300A4C5F4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04B255F728C38B4300A4C5F4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0477F55A28BBAA00007F0631 /* Project object */;
 }
